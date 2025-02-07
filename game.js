@@ -1,5 +1,5 @@
 // List of Hamshen words in modern Turkish script
-const HAMSHEN_WORDS = ["parev"];
+const HAMSHEN_WORDS = ["aakag"];
 let targetWord = HAMSHEN_WORDS[Math.floor(Math.random() * HAMSHEN_WORDS.length)];
 let currentGuess = '';
 let currentRow = 0;
