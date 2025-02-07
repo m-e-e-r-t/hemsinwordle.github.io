@@ -6,8 +6,28 @@ body {
   padding: 20px;
 }
 
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.info-panel {
+  width: 25%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.main-game {
+  width: 45%;
+}
+
 h1 {
   color: #333;
+  margin-bottom: 30px;
 }
 
 .grid {
@@ -29,11 +49,12 @@ h1 {
   font-weight: bold;
   text-transform: uppercase;
   background-color: #fff;
+  transition: all 0.3s ease;
 }
 
-.correct { background: #538d4e; color: #fff; } /* Green for correct letters */
-.present { background: #b59f3b; color: #fff; } /* Yellow for right letter, wrong place */
-.absent { background: #3a3a3c; color: #fff; } /* Gray for absent letters */
+.correct { background: #538d4e; color: #fff; border-color: #538d4e; }
+.present { background: #b59f3b; color: #fff; border-color: #b59f3b; }
+.absent { background: #3a3a3c; color: #fff; border-color: #3a3a3c; }
 
 button {
   padding: 10px 20px;
@@ -43,8 +64,25 @@ button {
   color: #fff;
   border: none;
   border-radius: 5px;
+  margin-top: 20px;
 }
 
 button:hover {
   background-color: #555;
+}
+
+.success-message {
+  color: #538d4e;
+  font-size: 18px;
+  margin: 20px 0;
+  min-height: 24px;
+  padding: 15px;
+  background-color: #f8fff8;
+  border-radius: 5px;
+  border: 1px solid #538d4e;
+}
+
+.info-content {
+  line-height: 1.6;
+  color: #666;
 }
