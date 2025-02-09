@@ -1,9 +1,9 @@
 // List of Hamshen words with definitions
 const HAMSHEN_WORDS = [
-  { word: "aakag", definition: "Geleneksel bir Hemşin kelimesi" },
-  { word: "karde", definition: "Hemşin kültüründe dayanışma" },
-  { word: "horom", definition: "Hemşin halk dansı" },
-  { word: "viche", definition: "Hemşin yemek kültürü" },
+  { word: "aakag", definition: "Güneş" },
+  { word: "hokur", definition: "Hala, babanın kız kardeşi" },
+  { word: "horon", definition: "Karadeniz bölgesine özgü halk dansı" },
+  { word: "dandz", definition: "Armut" },
   { word: "pazar", definition: "Geleneksel toplanma günü" }
 ];
 
