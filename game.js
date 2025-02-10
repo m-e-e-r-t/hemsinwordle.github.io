@@ -1,6 +1,5 @@
 // List of Hamshen words with definitions
 const HAMSHEN_WORDS = [
-  { word: "aakag", definition: "Güneş" },
   { word: "hokur", definition: "Hala, babanın kız kardeşi" },
   { word: "horon", definition: "Karadeniz bölgesine özgü halk dansı" },
   { word: "dandz", definition: "Armut" },
